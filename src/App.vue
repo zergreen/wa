@@ -9,19 +9,27 @@
   <!-- <DataTable></DataTable> -->
 
   <MyTable></MyTable>
+
+  <MyAdd></MyAdd>
+
+  <!-- <Home></Home> -->
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 // import DataTable from './views/DataTable.vue';
 import MyTable from './views/MyTable.vue';
+import MyAdd from './views/MyAdd.vue';
+// import Home from './views/MyHome.vue';
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
     // DataTable
-    MyTable
+    MyTable,
+    MyAdd,
+    // Home,
   }
 }
 </script>
